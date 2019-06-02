@@ -73,7 +73,10 @@ sensors = [15, 4, 14, 26] # GPIOs (BCM notation) to which sensors are connected
 ```
 python client.py &
 ```
+7. The client interpolates by default between middle sensors (*15-4, 4-14, 14-26 in example*)
 
 ## Test board
+
+*The single connector on the right is flipped*
 
 ![Test board pinout](./testboard.svg "Test board pinout")

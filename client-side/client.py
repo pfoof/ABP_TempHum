@@ -8,7 +8,7 @@ import time
 SERVER="localhost"
 CLIENT_NAME="Stacja"
 STATION_ID=1 # This station unique ID
-JUST_DEBUG=False
+JUST_DEBUG=False # If true, just print on stdout and don't publish to MQTT broker
 
 sensors = [15, 4, 14, 26] # GPIOs (BCM notation) to which sensors are connected
 temps = []
