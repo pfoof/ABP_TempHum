@@ -2,11 +2,11 @@
 
 ### Overall
 
-![Image of the structure](https://github.com/pfoof/ABP_TempHum/raw/master/abp_szklarnia.svg "System structure")
+![Image of the structure](./abp_szklarnia.svg "System structure")
 
 ### Business processes
 
-![Business processes](https://github.com/pfoof/ABP_TempHum/raw/master/mqtt_recv_message.svg "Business processes")
+![Business processes](./mqtt_recv_message.svg "Business processes")
 
 
 ## Database record structure
