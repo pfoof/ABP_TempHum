@@ -1,3 +1,14 @@
+## Structure of the *system*
+
+### Overall
+
+![Image of the structure](https://github.com/pfoof/ABP_TempHum/raw/master/abp_szklarnia.svg "System structure")
+
+### Business processes
+
+![Business processes](https://github.com/pfoof/ABP_TempHum/raw/master/mqtt_recv_message.svg "Business processes")
+
+
 ## Database record structure
 ```
 mongo -> db: sensors
@@ -44,3 +55,7 @@ FLASK_APP=report.py flask run &
 ## Client side
 
 *TODO*
+
+## Test board
+
+![Test board pinout](https://github.com/pfoof/ABP_TempHum/raw/master/testboard.svg "Test board pinout")
