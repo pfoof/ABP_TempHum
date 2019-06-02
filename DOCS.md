@@ -58,4 +58,4 @@ FLASK_APP=report.py flask run &
 
 ## Test board
 
-![Test board pinout](https://github.com/pfoof/ABP_TempHum/raw/master/testboard.svg "Test board pinout")
+![Test board pinout](./testboard.svg "Test board pinout")
