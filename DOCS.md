@@ -45,6 +45,17 @@ pip install Flask
 pip install pymongo
 pip install paho-mqtt
 ```
+4. Configure mosquitto `/etc/mosquitto/mosquitto.conf`
+```
+persistence true # Let's add some persistence
+persistence_file mosquitto.db
+persistence_location /var/lib/mosquitto/
+persistent_client_expiration 14d
+autosave_interval 180 # save every 3 minutes
+```
+
+5. A good idea would be also to configure some user/password authentication.
+
 ## Running
 Running can be done with some docker image of Python or directly.
 ```
