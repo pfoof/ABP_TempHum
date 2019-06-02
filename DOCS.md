@@ -54,7 +54,25 @@ FLASK_APP=report.py flask run &
 
 ## Client side
 
-*TODO*
+1. Assuming installed raspbian on Raspberry Pi.
+2. Get `paho-mqtt` for Python, also some other needed deps
+```
+pip install paho-mqtt setuptools wheel
+```
+3. Clone Adafruit_Python_DHT library (or use referenced in `client-side/`)
+4. Follow instructions to compile it
+ https://github.com/adafruit/Adafruit_Python_DHT/blob/master/README.md
+5. Change parameters inside `client.py`
+```
+SERVER="my-server.host"
+CLIENT_NAME="This station name"
+STATION_ID=123 # This station unique ID
+sensors = [15, 4, 14, 26] # GPIOs (BCM notation) to which sensors are connected
+```
+6. Test with `JUST_DEBUG = True` or just start
+```
+python client.py &
+```
 
 ## Test board
 

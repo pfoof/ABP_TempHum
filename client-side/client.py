@@ -7,10 +7,10 @@ import time
 #SERVER="172.20.83.31"
 SERVER="localhost"
 CLIENT_NAME="Stacja"
-STATION_ID=1
+STATION_ID=1 # This station unique ID
 JUST_DEBUG=False
 
-sensors = [15, 4, 14, 26]
+sensors = [15, 4, 14, 26] # GPIOs (BCM notation) to which sensors are connected
 temps = []
 hums = []
 
