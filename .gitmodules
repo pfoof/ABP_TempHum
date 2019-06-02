@@ -1,0 +1,3 @@
+[submodule "client-side/Adafruit_Python_DHT"]
+	path = client-side/Adafruit_Python_DHT
+	url = https://github.com/adafruit/Adafruit_Python_DHT.git
